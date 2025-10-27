@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 20px;
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        text-align: center;
+        justify-content: center;
+    }
+
+    .texto {
+        width: 500px;
+    }
+
+    a {
+        margin: 20px;
+    }
+
+    .final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    }
+}

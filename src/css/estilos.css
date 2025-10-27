@@ -1,0 +1,61 @@
+html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+}
+
+.comeco {
+    display: flex;
+    justify-content: flex-start; /* Alinha à esquerda */
+    padding: 2% 5% 0% 5%; /* Espaçamento interno */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 5%;
+}
+
+.texto {
+    margin-left: 10%; /* Espaço entre imagem e texto */
+    width: 700px;
+}
+
+a {
+    background-color: white;
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    padding: 20px 70px;
+    border-radius: 25px;
+    transition: background-color 0.4s; /* Para uma transição suave */
+}
+
+a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.item {
+    margin: 50px 30px;
+}
+
+.final {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    margin-right: 10%;
+}
+
+.final div {
+    font-size: 40px; /* Aumenta o tamanho dos ícones */
+    margin: 20px;
+    transition: color 0.4s; /* Para uma transição suave */
+}
+
+.final div:hover {
+    color: hsl(300, 69%, 71%);
+}
